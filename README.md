@@ -1,4 +1,5 @@
 # A Simple Tic Tac Toe Board Game Build using Three JS (React Three) 🎨
+![alt text](https://github.com/f0-x/threeJSTicTacToe/blob/master/gif_preview.gif "Local Preview")
 
 ## Main Packages Used
 * Three JS via React Three Fiber Renderer esp. build for React Applications. 
