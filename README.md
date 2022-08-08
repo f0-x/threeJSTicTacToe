@@ -9,3 +9,6 @@
 * Immer: Used to handle immutable board states across the games.
 * Vite with Vitest: Modern buld tool and an awesome testing framework which is BLAZINGLY fast 🔥
 * Leva: A GUI toolbox that allows us to customize our React Three elements easily.
+
+## Why are there 4 cells in each Tic-Tac-Toe plane view ?
+Regular Tic Tac Toe exists in Two-dimensional view which is represented by a 3x3 plane. To increase the dimension to 3D we want a cube that is 4x4x4. The reason each side has a length of 4 in 3D is that if we kept it at length 3, the first player will always win if they go in the middle. So to remove this unfairness of logic while implementing a 3D view for a Tic-Tac-Toe board game, I have added an extra cell for each plane. 
